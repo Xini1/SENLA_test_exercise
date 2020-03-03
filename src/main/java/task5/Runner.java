@@ -51,7 +51,6 @@ public class Runner {
         System.out.println("It is not a correct number. Try again:");
         System.out.println("Your number is out of allowed range. Try again:");
 
-
         List<Integer> palindromes = getPalindromes(range);
 
         System.out.printf("Palindromes in range from 0 to %d inclusive are:\n", range);
